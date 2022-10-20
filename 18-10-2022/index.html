@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" type="image/x-icon" href="https://www.pakwheels.com/favicon.ico?t=1475740228">
+		<title>Form Elements</title>
+		<style>
+			input {display:block;margin-top:5px;}
+
+			#firstDiv {
+				background-color: green;
+				color: white;
+			}
+
+			#secondDiv {
+				background-color: blue;
+				color: white;
+			}
+			.center {
+				text-align:center;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div class="center" id="firstDiv">
+			This is first Div
+		</div>
+
+		<div class="center" id="secondDiv">
+			This is second Div
+		</div>
+
+		<!-- text to comment or html tags -->
+
+		<!-- Block Level and Inline Elements -->
+		<a href="https://google.com">Google</a>
+		<a href="https://facebook.com">Facebook</a>
+		<a href="https://twitter.com">Twitter</a>
+		<br />
+		<span>This is span</span>
+		<span>This is another span element</span>
+		<br />
+		<div>
+			This is a div Element...
+		</div>
+		<div>
+			This is anotehr div Element...
+		</div>
+		<p>
+			This is a p Element...
+		</p>
+		<p>
+			This is anotehr p Element...
+		</p>
+
+		<form action="index.php">
+			<label>Work Type: </label>
+			<input type="radio" name="work" value="1" /> Remote
+			<input type="radio" name="work" value="2" /> Local
+
+
+			<input type="hidden" name="isHiddenField" value="1" />
+			<label>Name: </label>
+			<input type="text" name="name" placeholder="Enter your name" />
+			<input type="file" />
+			<input type="date" name="my-date" />
+			<input type="range" name="my-range" />
+			<input type="checkbox" name="subjects" value="english" /> English
+			<input type="checkbox" name="subjects" value="urdu" /> Urdu
+			<input type="radio" name="gender" value="male" /> Male
+			<input type="radio" name="gender" value="female" /> Female
+			<input type="time" />
+			<input type="url" />
+			<input type="color" />
+			<input type="search" />
+			<input type="submit" />
+			<input type="reset" />
+			<input type="button" value="Click Me!" />
+			<input type="password" />
+			<input type="month" />
+			<input type="number" />
+			<input type="email" />
+			<input type="week" />
+			<input type="tel" />
+
+			<select>
+				<option value="">Please Select</option>
+				<option value="1">Yes</option>
+				<option value="2">No</option>
+			</select>
+			<br />
+			<textarea rows="10" cols="10"></textarea>
+			<br />
+			<button>Button</button>
+		</form>
+	</body>
+</html>
