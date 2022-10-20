@@ -1,5 +1,4 @@
 # Topics Covered
-## Features
 
 - HTML
 - HTML Syntax
