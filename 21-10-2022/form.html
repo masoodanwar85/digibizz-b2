@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form Elements</title>
+	</head>
+	<body>
+		<form action="index.php">
+			<table border="1" cellpadding="5" cellspacing="5" width="100%">
+				<tr>
+					<td align="center" colspan="2"><h3>Registration Form (Validation)</h3></td>
+				</tr>
+				<tr>
+					<td valign="top"><label>Center:</label></td>
+					<td>
+						<label><input type="radio" name="center" value="itti" /> ITTI Center</label><br />
+						<label><input type="radio" name="center" value="uob" /> UOB Center</label><br />
+						<label><input type="radio" name="center" value="buitems" /> BUITEMS Center</label>
+					</td>
+				</tr>
+				<tr>
+					<td><label>Name: </label></td>
+					<td>
+						<input type="text" name="name" placeholder="Enter Name here" required />
+					</td>
+				</tr>
+				<tr>
+					<td><label>Email: </label></td>
+					<td>
+						<input type="email" name="email" placeholder="Enter Email here" required />
+					</td>
+				</tr>
+				<tr>
+					<td><label>Age: </label></td>
+					<td>
+						<input type="number" name="age" placeholder="Enter Age here" min="20" max="30" required />
+					</td>
+				</tr>
+				<tr>
+					<td><label>Code: </label></td>
+					<td>
+						<input type="text" name="code" placeholder="Enter Code here" pattern="[A-Z]{4}" required />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<button type="submit">Submit</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
