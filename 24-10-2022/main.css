@@ -1,0 +1,17 @@
+/* ==== How to target an Element === */
+div {
+	background-color: grey;
+	border: 6px solid green;
+	padding: 50px;
+	margin: 50px 0px 0px 50px;
+}
+/* ==== How to target an Id === */
+#para {
+	color: red;
+	text-align:right;
+}
+/* ==== How to target a class === */
+.art {
+	text-decoration: underline;
+	font-style: italic;
+}
