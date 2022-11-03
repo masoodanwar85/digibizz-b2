@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Template Conversion</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				background-color: #ededed;
+			}
+			.main {
+				margin: 0px 15px 0px 15px;
+			}
+			header {
+				background-color: white;
+			}
+			div.navigation {
+				background-color: black;
+				color: white;
+				height: 50px;
+			}
+
+			nav {
+				float:left;
+				width: 70%;
+			}
+
+			nav ul {
+				list-style-type: none;
+				margin-top: 15px;
+			}
+			nav ul li {
+				display: inline;
+				margin-left: 15px;
+			}
+			nav ul li a {
+				padding: 5px;
+				color: white;
+				text-decoration: none;
+			}
+			nav ul li a:hover {
+				color: green;
+				text-decoration: underline;
+			}
+			nav ul li a:active {
+				color: grey;
+				text-decoration: underline;
+			}
+			div.social-media {
+				float:right;
+				width: 25%;
+				text-align: right;
+				margin-right: 10px;
+				margin-top: 10px;
+			}
+			div.about-company {
+				margin-top: 20px;
+			}
+			div.about-company .about, div.about-company .company, div.about-company .services {
+				float:left;
+				width:30%;
+				background-color: white;
+				padding: 10px;
+				border-radius: 5px;
+			}
+
+			.about-company h2 {
+				margin-bottom: 10px;
+			}
+
+			div.about-company .company {
+				margin: 0px 20px 0px 20px;
+			}
+
+			div.clear-fix {
+				clear:both;
+			}
+
+			div.main-content {
+				clear:both;
+				margin-top: 200px;
+				background-color: white;
+				min-height: 270px;
+				padding: 15px;
+				border-radius: 5px;
+			}
+			div.main-content .content {
+				width: 65%;
+				float: left;
+				padding-right: 10px;
+			}
+			div.main-content .side-nav {
+				width: 30%;
+				float: right;
+			}
+			.side-nav ul {
+				margin-top: 10px;
+				padding: 10px;
+				background-color: #ededed;
+				list-style-type: none;
+			}
+			.side-nav ul li {
+				padding: 10px 0px 10px 5px;
+			}
+			.side-nav ul li a {
+				text-decoration: none;
+				color: black;
+				font-weight: bold;
+			}
+			.text-center {
+				text-align: center;
+			}
+			.mt-10 {
+				margin-top: 10px;
+			}
+			.mb-10 {
+				margin-bottom: 10px;
+			}
+			div.gallery div {
+				width: 25%;
+				height: 60px;
+				float: left;
+				text-align: center;
+				padding-top: 15px;
+				color: white;
+			}
+			div.gallery .blue{
+				background-color: blue;
+			}
+			div.gallery .green{
+				background-color: green;
+			}
+			div.gallery .yellow{
+				background-color: yellow;
+			}
+			div.gallery .red{
+				background-color: red;
+			}
+			footer {
+				margin-top: 100px;
+				padding: 10px 0px;
+				background-color: white;
+				height: 25px;
+			}
+			footer .copyright {
+				float: left;
+				width: 50%;
+				padding-left: 10px;
+			}
+			footer .team-info {
+				float: right;
+				width: 40%;
+				text-align: right;
+				padding-right: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<header>
+				<img src="logo.png" width="150" />
+			</header>
+			<div class="navigation">
+				<nav>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Product</a></li>
+						<li><a href="#">Company</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+				<div class="social-media">
+					<img src="fb-logo.png" width="30" />
+				</div>
+			</div>
+			<div class="slider">
+				<img src="slider.jpg" width="1057" />
+			</div>
+			<div class="about-company">
+				<div class="about">
+					<h2>About</h2>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					</p>
+				</div>
+				<div class="company">
+					<h2>Company</h2>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					</p>
+				</div>
+				<div class="services">
+					<h2>Services</h2>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					</p>
+				</div>
+			</div>
+			<div class="main-content">
+				<div class="content">
+					<h2 class="mb-10">Content</h2>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					</p>
+					<h3 class="mt-10 mb-10">Sub Header</h3>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					</p>
+				</div>
+				<div class="side-nav">
+					<h3>Navigation</h3>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Product</a></li>
+						<li><a href="#">Company</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear-fix"></div>
+			<h2 class="text-center mt-10 mb-10">Gallery</h2>
+			<div class="gallery">
+				<div class="blue">Gallery Image</div>
+				<div class="green">Gallery Image</div>
+				<div class="yellow">Gallery Image</div>
+				<div class="red">Gallery Image</div>
+			</div>
+			<footer>
+				<div class="copyright">
+					Copyright &copy; 2022, Digibizz Inc.
+				</div>
+				<div class="team-info">
+					Designed by the Technical Batch 2 Team
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
