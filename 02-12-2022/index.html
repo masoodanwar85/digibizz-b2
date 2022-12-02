@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Javascript</title>
+		<script type="text/javascript" src="jquery.min.js"></script>
+	</head>
+	<body>
+		<h1>Lesson: Javascript</h1>
+		<h3 id="result">Result: 0</h3>
+
+		<h5 class="myClass">Class 1</h5>
+		<h5 class="myClass">Class 2</h5>
+		<h5 class="myClass">Class 3</h5>
+
+		<input type="text" id="name" name="name" value="" placeholder="Please Input Name" />
+
+		<br />
+		<button type="button" onclick="animateMe();">Animate!</button>
+
+		<script>
+			// JQuery
+
+			// $('#result').text('Result: 1');
+			// var result = $('#result').text();
+			function animateMe() {
+				// $('#result').css('background-color','green');
+				// $('#result').toggle('slow');
+
+				// $('.myClass').toggle('slow');
+				$('.myClass').css('background-color','green');
+			}
+
+			// var num1 = 45;
+			// var num2 = 5;
+			//
+			// // if (true) {
+			// // 	// If True This action will be performed
+			// // } else {
+			// // 	// If False then this action will be performed
+			// // }
+			//
+			// function validate() {
+			// 	var valueOfName = document.getElementById('name').value;
+			// 	if (valueOfName == '') {
+			// 		alert('There is no value in name');
+			// 	} else {
+			// 		alert('There is value, which is ' + valueOfName);
+			// 	}
+			// }
+			//
+			// function performAddition() {
+			// 	var add = num1 + num2;
+			// 	// var sub = num1 - num2;
+			// 	// var mul = num1 * num2;
+			// 	// var div = num1 / num2;
+			// 	document.getElementById('result').innerText = add;
+			// }
+
+			// var str = "I am learning Javascript";
+			// console.log(str);
+
+			// Complex Data Types
+			// var ary = [2,4,6,8];
+			//
+			// console.log(ary);
+			//
+			// console.log(ary[3]);
+
+			// var objRollNumbers = {
+			// 	'rol_1' : 'Suleman',
+			// 	'rol_2' : 'XYZ',
+			// 	'rol_3' : 'ABC'
+			// };
+			//
+			// console.log(objRollNumbers);
+			//
+			// console.log(objRollNumbers['rol_3']);
+
+
+			// var objStudents = {
+			// 	'Masood' : { 'Qualification' : 'BSC', 'Address' : '123' },
+			// 	'Suleman' : { 'Qualification' : 'BSC', 'Address' : '123' },
+			// 	'Sikandar' : { 'Qualification' : 'BSC', 'Address' : '123' },
+			// };
+			//
+			// console.log(objStudents);
+
+
+
+
+		</script>
+	</body>
+</html>
