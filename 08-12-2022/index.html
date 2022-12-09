@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>CSS Sprites</title>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.js"></script>
+		<style>
+			/* div {
+				width: 70px;
+				height: 120px;
+				background-image: url('CSS-Sprites.png');
+				background-position: 5px 0px;
+			} */
+		</style>
+	</head>
+	<body>
+		<div>
+
+		</div>
+		<script>
+			setTimeout(() => {
+				alert('Hi! I am being shown after 5 seconds');
+			}, 5000);
+			setInterval(() => {
+				var currentDateTime = new Date();
+				var formattedDateTime = currentDateTime.getFullYear() + '-' + currentDateTime.getMonth() + '-' + currentDateTime.getDay() + ' ' + currentDateTime.getHours() + ':' + currentDateTime.getMinutes() + ':' + currentDateTime.getSeconds();
+				$('div').text(formattedDateTime);
+			}, 1000);
+			// var XPos = 5;
+			// setInterval(() => {
+			// 	$('div').css('background-position',XPos + 'px 0px');
+			// 	XPos += 70;
+			// 	if (XPos >= 350) {
+			// 		XPos = 5;
+			// 	}
+			// }, 100);
+		</script>
+	</body>
+</html>
